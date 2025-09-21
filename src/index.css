@@ -432,7 +432,7 @@ li > button:hover {
     overflow-y: auto;
     position: absolute;
     letter-spacing: .05rem;
-    top: calc(100%  -2px);
+    top: calc(100%  -  2px);
     height: 250px;
     background: var(--glass-dark);
     backdrop-filter: blur(20px);
