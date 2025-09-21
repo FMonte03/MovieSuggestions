@@ -6,7 +6,7 @@ import App from './App.jsx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const basename = '/MovieSuggestions';
+const basename = '/MovieSuggestions/';
 
 root.render(
   // Use '/' during local development and '/moviepicker' for production GitHub Pages
