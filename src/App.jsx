@@ -20,7 +20,6 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path='/moviepicker' element={<Home handleSubmit={handleSubmit} />} />
         
         <Route index element={<Home handleSubmit={handleSubmit} />} />
         <Route path="/SearchByGenre" element={<SearchByGenre />} />

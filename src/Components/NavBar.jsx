@@ -7,7 +7,7 @@ return(
 <div className="NavBar">
     <div className="Logo"><img src={Logo} alt="" /></div>
     <ul className="rightLinks">
-        <Link to={'/moviepicker'}>
+        <Link to={'/'}>
             <li>Home</li>
         </Link>
         <Link to={'/SearchByGenre'}>
